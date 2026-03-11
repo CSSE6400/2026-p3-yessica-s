@@ -1,6 +1,6 @@
 FROM python:3.13-slim
 
-# Install pipx
+# Installing dependencies for running a Python application
 RUN apt-get update && apt-get install -y pipx
 RUN pipx ensurepath
 
